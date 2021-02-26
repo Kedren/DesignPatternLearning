@@ -40,6 +40,7 @@ public class Calculator
             Console.Write("请选择运算符号（+、-、*、/）：");
             string strOperate = Console.ReadLine();
             Console.Write("请输入数字B：");
+            
             string strNumberB = Console.ReadLine();
             string strResult = "";
 
