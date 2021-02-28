@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WorkSpace\\.Net\\DesignPatternLearning\\DesignPatternLearning.csproj": {}
+    "/Users/kedren/WorkSpace/Net/DesignPatternLearning/DesignPatternLearning.csproj": {}
   },
   "projects": {
-    "E:\\WorkSpace\\.Net\\DesignPatternLearning\\DesignPatternLearning.csproj": {
+    "/Users/kedren/WorkSpace/Net/DesignPatternLearning/DesignPatternLearning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WorkSpace\\.Net\\DesignPatternLearning\\DesignPatternLearning.csproj",
+        "projectUniqueName": "/Users/kedren/WorkSpace/Net/DesignPatternLearning/DesignPatternLearning.csproj",
         "projectName": "DesignPatternLearning",
-        "projectPath": "E:\\WorkSpace\\.Net\\DesignPatternLearning\\DesignPatternLearning.csproj",
-        "packagesPath": "C:\\Users\\Kedren-Lu\\.nuget\\packages\\",
-        "outputPath": "E:\\WorkSpace\\.Net\\DesignPatternLearning\\obj\\",
+        "projectPath": "/Users/kedren/WorkSpace/Net/DesignPatternLearning/DesignPatternLearning.csproj",
+        "packagesPath": "/Users/kedren/.nuget/packages/",
+        "outputPath": "/Users/kedren/WorkSpace/Net/DesignPatternLearning/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kedren-Lu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kedren/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }

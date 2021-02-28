@@ -8,7 +8,9 @@ namespace DesignPatternLearning
         {
             Calculator calculator=new Calculator();
             // calculator.First(); //计算器第一版
-            calculator.Second();
+            // calculator.Second();
+            calculator.Third();
+
 
         }
     }
