@@ -10,8 +10,6 @@ namespace DesignPatternLearning
             // calculator.First(); //计算器第一版
             // calculator.Second();
             calculator.Third();
-
-
         }
     }
 }
