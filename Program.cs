@@ -6,10 +6,21 @@ namespace DesignPatternLearning
     {
         static void Main(string[] args)
         {
-            Calculator calculator=new Calculator();
+            #region 简单工厂模式
+
+            // Calculator calculator=new Calculator();
             // calculator.First(); //计算器第一版
             // calculator.Second();
-            calculator.Third();
+            // calculator.Third();
+            // calculator.Fourth();
+
+            #endregion
+
+            #region 策略模式
+
+            
+
+            #endregion
         }
     }
 }
