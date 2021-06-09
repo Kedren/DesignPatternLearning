@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\WorkSpace\\.Net Project\\DesignPatternLearning\\DesignPatternLearning.csproj": {}
+    "E:\\WorkSpace\\.Net Project\\DesignPatternLearning\\DesignPatternLearning.csproj": {}
   },
   "projects": {
-    "e:\\WorkSpace\\.Net Project\\DesignPatternLearning\\DesignPatternLearning.csproj": {
+    "E:\\WorkSpace\\.Net Project\\DesignPatternLearning\\DesignPatternLearning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\WorkSpace\\.Net Project\\DesignPatternLearning\\DesignPatternLearning.csproj",
+        "projectUniqueName": "E:\\WorkSpace\\.Net Project\\DesignPatternLearning\\DesignPatternLearning.csproj",
         "projectName": "DesignPatternLearning",
-        "projectPath": "e:\\WorkSpace\\.Net Project\\DesignPatternLearning\\DesignPatternLearning.csproj",
+        "projectPath": "E:\\WorkSpace\\.Net Project\\DesignPatternLearning\\DesignPatternLearning.csproj",
         "packagesPath": "C:\\Users\\16967\\.nuget\\packages\\",
-        "outputPath": "e:\\WorkSpace\\.Net Project\\DesignPatternLearning\\obj\\",
+        "outputPath": "E:\\WorkSpace\\.Net Project\\DesignPatternLearning\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\16967\\AppData\\Roaming\\NuGet\\NuGet.Config",
