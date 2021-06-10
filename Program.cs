@@ -18,16 +18,64 @@ namespace DesignPatternLearning
 
             #region 策略模式
 
-            Context context;
+            // Context context;
 
-            context=new Context(new ConcreteStrategyA());
-            context.ContextInterface();
+            // context = new Context(new ConcreteStrategyA());
+            // context.ContextInterface();
 
-            context=new Context(new ConcreteStrategyB());
-            context.ContextInterface();
+            // context = new Context(new ConcreteStrategyB());
+            // context.ContextInterface();
 
-            context=new Context(new ConcreteStrategyC());
-            context.ContextInterface();
+            // context = new Context(new ConcreteStrategyC());
+            // context.ContextInterface();
+
+            #endregion
+
+            #region 装饰模式
+
+            #region 未使用前第一版
+
+            // PersonFirst xc = new PersonFirst("小菜");
+            // Console.WriteLine("\n第一种装扮：");
+
+            // xc.WearTShirts();
+            // xc.WearBigTrouser();
+            // xc.WearSneakers();
+            // xc.Show();
+
+            // Console.WriteLine("\n第二种装扮：");
+            // xc.WearSuit();
+            // xc.WearTie();
+            // xc.WearLeatherShoes();
+            // xc.Show();
+
+            // Console.Read();
+            #endregion
+
+            #region  未使用前第二版
+
+            PersonSecond xc = new PersonSecond("小菜");
+
+            Console.WriteLine("/n第一种装扮：");
+            Finery dtx = new TShirts();
+            Finery kk = new BigTrouser();
+            Finery pqx = new Sneakers();
+            dtx.Show();
+            kk.Show();
+            pqx.Show();
+            xc.Show();
+
+            Console.WriteLine("/n第二种装扮：");
+            Finery xz = new Suit();
+            Finery ld = new Tie();
+            Finery px = new LeatherShoes();
+
+            xz.Show();
+            ld.Show();
+            px.Show();
+            xc.Show();
+
+            #endregion
 
             #endregion
         }
