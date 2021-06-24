@@ -33,7 +33,7 @@ namespace DesignPatternLearning
 
             #region 装饰模式
 
-            #region 未使用前第一版
+            #region 小菜扮靓（未使用前第一版）
 
             // PersonFirst xc = new PersonFirst("小菜");
             // Console.WriteLine("\n第一种装扮：");
@@ -52,28 +52,69 @@ namespace DesignPatternLearning
             // Console.Read();
             #endregion
 
-            #region  未使用前第二版
+            #region  小菜扮靓（未使用前第二版）
 
-            PersonSecond xc = new PersonSecond("小菜");
+            // PersonSecond xc = new PersonSecond("小菜");
 
-            Console.WriteLine("/n第一种装扮：");
-            Finery dtx = new TShirts();
-            Finery kk = new BigTrouser();
-            Finery pqx = new Sneakers();
+            // Console.WriteLine("/n第一种装扮：");
+            // Finery dtx = new TShirts();
+            // Finery kk = new BigTrouser();
+            // Finery pqx = new Sneakers();
+            // dtx.Show();
+            // kk.Show();
+            // pqx.Show();
+            // xc.Show();
+
+            // Console.WriteLine("/n第二种装扮：");
+            // Finery xz = new Suit();
+            // Finery ld = new Tie();
+            // Finery px = new LeatherShoes();
+
+            // xz.Show();
+            // ld.Show();
+            // px.Show();
+            // xc.Show();
+
+            #endregion
+
+            #region 例子
+
+            // ConcreteComponent c=new ConcreteComponent();
+            // ConcreateDecoretorA d1=new ConcreateDecoretorA();
+            // ConcreateDecoretorB d2=new ConcreateDecoretorB();
+
+            // d1.SetComponent(c);
+            // d2.SetComponent(d1);
+            // d2.Operation();
+
+            #endregion
+
+            #region 小菜扮靓（使用后）
+
+            PersonThird xc = new PersonThird("小菜");
+
+            Console.WriteLine("\n第一种装扮：");
+
+            SneakersThird pqx = new SneakersThird();
+            BigTrouserThird kk = new BigTrouserThird();
+            TShirtsThird dtx = new TShirtsThird();
+
+            pqx.Decorate(xc);
+            kk.Decorate(pqx);
+            dtx.Decorate(kk);
             dtx.Show();
-            kk.Show();
-            pqx.Show();
-            xc.Show();
 
-            Console.WriteLine("/n第二种装扮：");
-            Finery xz = new Suit();
-            Finery ld = new Tie();
-            Finery px = new LeatherShoes();
+            Console.WriteLine("\n第二种装扮：");
 
+            LeatherShoesThird px=new LeatherShoesThird();
+            TieThird ld=new TieThird();
+            SuitThird xz=new SuitThird();
+
+            px.Decorate(xc);
+            ld.Decorate(px);
+            xz.Decorate(ld);
             xz.Show();
-            ld.Show();
-            px.Show();
-            xc.Show();
+            
 
             #endregion
 
